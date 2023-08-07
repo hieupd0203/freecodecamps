@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-image: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ),
+    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+}
+.survey-container {
+  max-width: 720px;
+  width: 100%;
+  margin: 50px auto 0;
+}
+.header {
+  margin-bottom: 30px;
+}
+#title {
+  text-align: center;
+  color: #f3f3f3;
+  margin-bottom: 8px;
+  font-size: 32px;
+}
+#description {
+  text-align: center;
+  color: #f3f3f3;
+  margin-bottom: 8px;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 200;
+}
+#survey-form {
+  width: 100%;
+  color: #f3f3f3;
+  background-color: rgba(27, 27, 50, 0.8);
+  padding: 40px;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+.form-group label,
+.form-group p {
+  display: block;
+  color: #f3f3f3;
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+.form-control,
+.form-group select {
+  display: block;
+  width: 100%;
+  height: 38px;
+  padding: 6px 12px;
+  background: #fff;
+}
+.radio-and-checkbox-container {
+  display: flex !important;
+  align-items: center !important;
+}
+.input-radio-and-checkbox {
+  display: inline-block;
+  min-height: 20px;
+  min-width: 20px;
+  margin-right: 10px;
+}
+.form-group textarea {
+  display: block;
+  width: 100%;
+
+  padding: 6px 12px;
+  background: #fff;
+}
+.btn-submit {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #37af65;
+  color: #f3f3f3;
+  font-size: 18px;
+  outline: none;
+  border: none;
+}
